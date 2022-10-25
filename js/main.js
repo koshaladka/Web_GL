@@ -85,9 +85,9 @@ function animate() {
 	earth.rotation.x += 0.002;
 	earth.rotation.z += 0.002;
 
-    venera.rotation.y += 0.004;
-	venera.rotation.x += 0.001;
-	venera.rotation.z += 0.001;
+    venera.rotation.y -= 0.003;
+	venera.rotation.x -= 0.002;
+	venera.rotation.z -= 0.002;
 
     mars.rotation.y += 0.003;
 	mars.rotation.x += 0.002;
